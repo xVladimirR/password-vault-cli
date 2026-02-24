@@ -11,7 +11,7 @@ while attempts > 0:
 
     if guess == secret:
         print("You win!")
-    if guess < secret:
+    elif guess < secret:
         print("Too low")
     else:
         print("Too high")
@@ -21,3 +21,5 @@ while attempts > 0:
 
 if attempts == 0:
     print(f"You lost. Number was {secret}")
+
+print("Game over")
