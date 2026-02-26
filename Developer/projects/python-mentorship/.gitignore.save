@@ -1,0 +1,10 @@
+git add .gitignore
+git commit -m "Add .gitignore (ignore secrets)"
+git pushgit add .gitignore
+git commit -m "Add .gitignore (ignore secrets)"
+git pushcd ~/Developer/projects/python-mentorship
+code README.mdgit add .
+git commit -m "Add README"
+git push origin maingit add .
+git commit -m "Add README"
+git push origin main
