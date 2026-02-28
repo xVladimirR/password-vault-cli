@@ -1,22 +1,15 @@
 # Password Vault CLI
 
-Command-line password manager built with Python.
+A command-line password vault written in Python.  
+Supports adding, viewing (masked), searching, editing, and deleting entries.
 
 ## Features
-
-- Add password entries
-- View saved entries
+- Add entries (site, username, password)
+- View entries (passwords masked)
 - Search by site
-- Edit entries
-- Delete entries
-
-## Technologies
-
-- Python
-- File handling
-- CLI interface
+- Edit entry by number
+- Delete entry by number
 
 ## How to run
-
 ```bash
 python vault.py
